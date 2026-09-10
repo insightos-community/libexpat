@@ -80,7 +80,6 @@ jobs:
             docbook2x \
             libtool \
             libprotobuf-dev \
-            lzip \
             parallel \
             protobuf-compiler
 
@@ -92,7 +91,7 @@ jobs:
           ./configure
           make dist
         popd
-        tar xf expat/expat-*.tar.xz
+        tar xf expat/expat-*.tar.gz
         rm -R expat/
         mv expat-* expat
 

@@ -83,7 +83,7 @@ m4_ifdef([AM_OPTIONAL_AUTOMAKE], [
   dnl NOTE: Without this dummy call in the file, the `m4_ifdef` above never hits true
   AM_OPTIONAL_AUTOMAKE([])
 ], [
-  AM_INIT_AUTOMAKE([dist-bzip2            dist-lzip dist-xz foreign subdir-objects])
+  AM_INIT_AUTOMAKE([                                        foreign subdir-objects])
 ])
 AM_MAINTAINER_MODE([enable])  # to allow argument --disable-maintainer-mode
 

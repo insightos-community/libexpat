@@ -70,7 +70,6 @@ jobs:
             gcc-multilib \
             g++-multilib \
             lcov \
-            lzip \
             moreutils \
             retry
 
