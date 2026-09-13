@@ -304,4 +304,4 @@ EXPAT_WARNINGS_AS_ERRORS:BOOL=OFF
 
 ## Reproducible platform builds
 
-See [glibc, musl and macOS build instructions](README.build.md) for pinned source revisions, exact scripts, tool requirements, local commands, CI reproduction and platform support boundaries.
+See [glibc, musl and macOS build instructions](https://github.com/insightos-community/libexpat/blob/insightos/musl/README.build.md) for pinned source revisions, exact scripts, tool requirements, local commands, CI reproduction and platform support boundaries.
