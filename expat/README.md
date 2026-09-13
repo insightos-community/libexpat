@@ -301,3 +301,7 @@ EXPAT_SYMBOL_VERSIONING:BOOL=OFF
 // Treat all compiler warnings as errors
 EXPAT_WARNINGS_AS_ERRORS:BOOL=OFF
 ```
+
+## Reproducible platform builds
+
+See [glibc, musl and macOS build instructions](README.build.md) for pinned source revisions, exact scripts, tool requirements, local commands, CI reproduction and platform support boundaries.
